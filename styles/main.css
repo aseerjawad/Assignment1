@@ -1,0 +1,25 @@
+.featured_flower {
+    text-align: center;
+}
+
+.featured_flower>h3 {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.featured_flower>p {
+    color: rgba(39, 39, 39, 0.60);
+
+    padding: 0px 400px 48px 400px;
+    font-size: 14px;
+}
+
+
+.photo_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}

@@ -5,10 +5,19 @@
     font-family: 'Lato', sans-serif;
 }
 
+header {
+    margin-bottom: 178px;
+}
+
 .container {
     display: flex;
     background-color: rgba(229, 84, 115, 0.10);
 }
+
+
+/* ----------Left section of header------------- */
+
+
 
 .left_section {
     /* background-color: aqua; */
@@ -37,14 +46,19 @@
     background-color: #E55473;
     color: #FFFFFF;
     border: 0;
-
 }
+
+
+
+
+
+/* ----------Right section of header------------- */
+
+
 
 .right_section {
-
     margin: 0px 10px 0px 100px;
 }
-
 
 
 .right_section>img {
@@ -52,6 +66,4 @@
     width: 545px;
     margin-bottom: -3px;
     margin-top: 40px;
-
-
 }
