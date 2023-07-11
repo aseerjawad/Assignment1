@@ -1,3 +1,6 @@
+/* <------------------------------------------- Three flower block ------------------------------------------> */
+
+
 .featured_flower {
     text-align: center;
 }
@@ -18,7 +21,7 @@
 
 .photo_block {
     margin: 0 200px 50px 200px;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     justify-content: center;
     align-items: end;
@@ -26,8 +29,15 @@
 
 }
 
-.photo_block>img {
-    background-color: brown;
+.photo_block>div {
+    text-align: center;
+    text-decoration: underline;
+    /* background-color: rgb(79, 165, 42); */
+    border-radius: 300px 300px 0px 0px;
+    width: 360px;
+    height: 440px;
+    padding: 90px 0 0 20px;
+
 
 }
 
@@ -89,10 +99,11 @@
 
 
 .sign_up_right-side {
-    margin: 50px 0 0 50px;
+    /* background-color: red; */
+    margin: 50px 0 10px 150px;
 }
 
-/* ---------------------------------------------------------------------------------------------------- */
+/* --------------------------------Photoblock section-------------------------------------------------------------------- */
 
 .instagram {
     text-align: center;
@@ -101,13 +112,13 @@
 .instagram>h3 {
     color: #272727;
     font-weight: 900;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     font-size: 30px;
 }
 
 .instagram>p {
     color: rgba(39, 39, 39, 0.60);
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 
@@ -124,7 +135,7 @@
     height: 320px;
 }
 
-/* ----------------------------------------------------------------------------------------------- */
+/* ------------------------------Subscribe section----------------------------------------------------------------- */
 
 .subscribe_section {
     padding: 90px 0px 150px 0px;
@@ -141,7 +152,7 @@
     font-weight: 800;
     margin-bottom: 16px;
     font-size: 35px;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
 }
 
 .subscribe_section>p {
