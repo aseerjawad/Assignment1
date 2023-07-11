@@ -113,11 +113,47 @@
 
     display: flex;
     justify-content: center;
-    margin: 0 200px 100px 200px;
+    margin: 0 200px 128px 200px;
     gap: 20px;
 }
 
 .photo_section>img {
-    width: 270px;
-    height: 325px;
+    width: 265px;
+    height: 320px;
+}
+
+.subscribe_section {
+    padding: 90px 0px 150px 0px;
+    margin: 0 200px 128px 200px;
+    border-radius: 8px;
+
+    text-align: center;
+    background-image: url(/Flower/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.subscribe_section>h2 {
+    font-weight: 800;
+    margin-bottom: 16px;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.subscribe_section>p {
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 16px;
+}
+
+.subscribe {
+
+    margin: 20px 230px 0 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.email_input {
+    border-radius: 8px;
+    width: 480px;
+    border: 0;
 }
