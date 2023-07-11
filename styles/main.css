@@ -51,3 +51,73 @@
     flex-direction: column;
     color: rgba(39, 39, 39, 0.80);
 }
+
+
+/* -----------------------------Signup section--------------------------------------------- */
+
+.sign_up_section {
+    background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 128px;
+    display: flex;
+}
+
+.sign_up_left-side {
+
+    padding: 140px 80px 100px 200px;
+}
+
+.sign_up_left-side>h3 {
+    color: #272727;
+    font-size: 37px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.sign_up_left-side>div {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.sign_up_left-side>p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+
+
+.sign_up_right-side {
+    margin: 50px 0 0 50px;
+}
+
+.instagram {
+    text-align: center;
+}
+
+.instagram>h3 {
+    color: #272727;
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.instagram>p {
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 30px;
+}
+
+
+.photo_section {
+
+    display: flex;
+    justify-content: center;
+    margin: 0 200px 100px 200px;
+    gap: 20px;
+}
+
+.photo_section>img {
+    width: 270px;
+    height: 325px;
+}
