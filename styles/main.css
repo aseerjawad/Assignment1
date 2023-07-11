@@ -17,9 +17,37 @@
 
 
 .photo_block {
+    margin: 0 200px 50px 200px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    justify-content: space-between;
+
+}
+
+.photo_block>img {
+    background-color: brown;
+
+}
+
+/* -------------------------------------------------------------------- */
+
+.small_icon_sec {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 200px 200px 128px 200px;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 50px;
+
+}
+
+.small_icon_sec>div {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-
+    flex-direction: column;
+    color: rgba(39, 39, 39, 0.80);
 }
