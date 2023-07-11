@@ -92,6 +92,8 @@
     margin: 50px 0 0 50px;
 }
 
+/* ---------------------------------------------------------------------------------------------------- */
+
 .instagram {
     text-align: center;
 }
@@ -122,6 +124,8 @@
     height: 320px;
 }
 
+/* ----------------------------------------------------------------------------------------------- */
+
 .subscribe_section {
     padding: 90px 0px 150px 0px;
     margin: 0 200px 128px 200px;
@@ -146,7 +150,6 @@
 }
 
 .subscribe {
-
     margin: 20px 230px 0 230px;
     display: flex;
     justify-content: space-between;

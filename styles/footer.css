@@ -1,0 +1,27 @@
+.footer_sec {
+    text-align: center;
+    padding: 128px 470px;
+    background-color: #000000;
+    color: white;
+}
+
+.footer_sec>h2 {
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-size: 40px;
+
+}
+
+.footer_sec>p {
+    color: rgba(255, 255, 255, 0.90);
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+
+.footer_sec>h6 {
+
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 14px;
+
+}
